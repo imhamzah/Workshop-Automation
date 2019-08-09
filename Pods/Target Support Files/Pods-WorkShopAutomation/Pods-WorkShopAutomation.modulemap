@@ -1,0 +1,6 @@
+framework module Pods_WorkShopAutomation {
+  umbrella header "Pods-WorkShopAutomation-umbrella.h"
+
+  export *
+  module * { export * }
+}

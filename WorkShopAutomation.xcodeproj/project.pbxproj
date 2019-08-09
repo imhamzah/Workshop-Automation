@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1805977C229F1062005CCA2F /* CarInShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805977B229F1062005CCA2F /* CarInShopTableViewCell.swift */; };
+		184F008322A133010095B06D /* CustomerArrivedCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F008222A133010095B06D /* CustomerArrivedCheckInViewController.swift */; };
+		1861EE39229DB50800B105BD /* CarInShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861EE38229DB50800B105BD /* CarInShopViewController.swift */; };
+		187D6B9322CA840A005E8146 /* CustomAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D6B9222CA840A005E8146 /* CustomAppointmentViewController.swift */; };
+		1884E1BD224E676D0092C8D0 /* DashBoardMechanicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884E1BC224E676D0092C8D0 /* DashBoardMechanicViewController.swift */; };
+		18862FFC22B632B4001B91F1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18862FFB22B632B4001B91F1 /* CoreData.framework */; };
+		188E51E522491B890050C6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E51E422491B890050C6B3 /* AppDelegate.swift */; };
+		188E51E722491B890050C6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E51E622491B890050C6B3 /* ViewController.swift */; };
+		188E51EA22491B890050C6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E51E822491B890050C6B3 /* Main.storyboard */; };
+		188E51EC22491B8B0050C6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188E51EB22491B8B0050C6B3 /* Assets.xcassets */; };
+		188E51EF22491B8B0050C6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188E51ED22491B8B0050C6B3 /* LaunchScreen.storyboard */; };
+		188E51FA22491B8B0050C6B3 /* WorkShopAutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E51F922491B8B0050C6B3 /* WorkShopAutomationTests.swift */; };
+		188E520522491B8B0050C6B3 /* WorkShopAutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E520422491B8B0050C6B3 /* WorkShopAutomationUITests.swift */; };
+		188E521622491F400050C6B3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188E521522491F400050C6B3 /* SignUpViewController.swift */; };
+		18901A5122B65AB900168234 /* Models.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18901A4F22B65AB900168234 /* Models.xcdatamodeld */; };
+		18984EEA22B940A100DC9C80 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984EE922B940A100DC9C80 /* BillViewController.swift */; };
+		18984EEC22B941A200DC9C80 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18984EEB22B941A200DC9C80 /* BillTableViewCell.swift */; };
+		18A20B8B22967BBA006550C3 /* ReviewCarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A20B8A22967BBA006550C3 /* ReviewCarsViewController.swift */; };
+		18A20B8D22967E13006550C3 /* ReviewCarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A20B8C22967E13006550C3 /* ReviewCarsTableViewCell.swift */; };
+		18A7425E227ACF90008E91BF /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7425D227ACF90008E91BF /* AddAppointmentViewController.swift */; };
+		18A74260227AD036008E91BF /* AddAppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7425F227AD036008E91BF /* AddAppointmentTableViewCell.swift */; };
+		18A7EBD5227C4E5600FC5987 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7EBD4227C4E5600FC5987 /* TableViewCell.swift */; };
+		18A7EBD7227C4E7E00FC5987 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7EBD6227C4E7E00FC5987 /* ServiceViewController.swift */; };
+		18B1982A228946170048584D /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B19829228946170048584D /* ServicesViewController.swift */; };
+		18B1982C228951FA0048584D /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1982B228951FA0048584D /* ServicesTableViewCell.swift */; };
+		18B396A9224BE7500006C0A8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B396A8224BE7500006C0A8 /* SignInViewController.swift */; };
+		18B853B7229143000043B347 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B853B6229143000043B347 /* CheckinViewController.swift */; };
+		18B853B9229149870043B347 /* AppointmentScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B853B8229149870043B347 /* AppointmentScheduleViewController.swift */; };
+		18B96F042285992E00B0F431 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B96F032285992E00B0F431 /* UserProfileViewController.swift */; };
+		18CEE813224EAB6A00B07ACD /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE812224EAB6A00B07ACD /* AddCarViewController.swift */; };
+		18D36A6422C5E0D3003A5CD8 /* ComplaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36A6322C5E0D3003A5CD8 /* ComplaintsViewController.swift */; };
+		18D36A6622C5E2A4003A5CD8 /* ComplaintsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36A6522C5E2A4003A5CD8 /* ComplaintsTableViewCell.swift */; };
+		18D36A6822C5E88E003A5CD8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36A6722C5E88E003A5CD8 /* DetailsViewController.swift */; };
+		18D36A6A22C5EC0F003A5CD8 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D36A6922C5EC0F003A5CD8 /* DetailsTableViewCell.swift */; };
+		18D53E6D229452440068414E /* ArrivingCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D53E6C229452440068414E /* ArrivingCarViewController.swift */; };
+		18D53E6F2294536E0068414E /* ArrivingCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D53E6E2294536E0068414E /* ArrivingCarTableViewCell.swift */; };
+		18DD23352284C63500D566BC /* DashBoardAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD23342284C63500D566BC /* DashBoardAdminViewController.swift */; };
+		18DD23372284C9CE00D566BC /* AddMechanicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD23362284C9CE00D566BC /* AddMechanicViewController.swift */; };
+		18F61D1C228580E6009AF7EF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F61D1B228580E6009AF7EF /* ProfileViewController.swift */; };
+		18F9BE1E224CB87E00B84E6D /* DashBoardCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BE1D224CB87E00B84E6D /* DashBoardCustomerViewController.swift */; };
+		DE34F007FA3362EE2A3F4515 /* Pods_WorkShopAutomation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5650EA948006E02B94C98308 /* Pods_WorkShopAutomation.framework */; };
+		E64CC040F078B66B79FC99CF /* Pods_WorkShopAutomationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA500B21E1F02F936560CBCB /* Pods_WorkShopAutomationTests.framework */; };
+		F987A9F3CAA5ACFB1BE8BFF8 /* Pods_WorkShopAutomationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98D0498A4CCD6791B8AE33 /* Pods_WorkShopAutomationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188E51F622491B8B0050C6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188E51D922491B890050C6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188E51E022491B890050C6B3;
+			remoteInfo = WorkShopAutomation;
+		};
+		188E520122491B8B0050C6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188E51D922491B890050C6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188E51E022491B890050C6B3;
+			remoteInfo = WorkShopAutomation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1805977B229F1062005CCA2F /* CarInShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInShopTableViewCell.swift; sourceTree = "<group>"; };
+		184F008222A133010095B06D /* CustomerArrivedCheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerArrivedCheckInViewController.swift; sourceTree = "<group>"; };
+		1861EE38229DB50800B105BD /* CarInShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInShopViewController.swift; sourceTree = "<group>"; };
+		187D6B9222CA840A005E8146 /* CustomAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppointmentViewController.swift; sourceTree = "<group>"; };
+		1884E1BC224E676D0092C8D0 /* DashBoardMechanicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardMechanicViewController.swift; sourceTree = "<group>"; };
+		18862FFB22B632B4001B91F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		188E51E122491B890050C6B3 /* WorkShopAutomation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkShopAutomation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188E51E422491B890050C6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188E51E622491B890050C6B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		188E51E922491B890050C6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188E51EB22491B8B0050C6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188E51EE22491B8B0050C6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188E51F022491B8B0050C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E51F522491B8B0050C6B3 /* WorkShopAutomationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkShopAutomationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188E51F922491B8B0050C6B3 /* WorkShopAutomationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkShopAutomationTests.swift; sourceTree = "<group>"; };
+		188E51FB22491B8B0050C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E520022491B8B0050C6B3 /* WorkShopAutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkShopAutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188E520422491B8B0050C6B3 /* WorkShopAutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkShopAutomationUITests.swift; sourceTree = "<group>"; };
+		188E520622491B8B0050C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188E521522491F400050C6B3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18901A5022B65AB900168234 /* Models.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Models.xcdatamodel; sourceTree = "<group>"; };
+		18984EE922B940A100DC9C80 /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		18984EEB22B941A200DC9C80 /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		18A20B8A22967BBA006550C3 /* ReviewCarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCarsViewController.swift; sourceTree = "<group>"; };
+		18A20B8C22967E13006550C3 /* ReviewCarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCarsTableViewCell.swift; sourceTree = "<group>"; };
+		18A7425D227ACF90008E91BF /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddAppointmentViewController.swift; path = WorkShopAutomation/Controller/AddAppointmentViewController.swift; sourceTree = SOURCE_ROOT; };
+		18A7425F227AD036008E91BF /* AddAppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddAppointmentTableViewCell.swift; path = WorkShopAutomation/Controller/AddAppointmentTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		18A7EBD4227C4E5600FC5987 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = WorkShopAutomation/Controller/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		18A7EBD6227C4E7E00FC5987 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		18B19829228946170048584D /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		18B1982B228951FA0048584D /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		18B396A8224BE7500006C0A8 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		18B853B6229143000043B347 /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
+		18B853B8229149870043B347 /* AppointmentScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentScheduleViewController.swift; sourceTree = "<group>"; };
+		18B96F032285992E00B0F431 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		18CEE812224EAB6A00B07ACD /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		18D36A6322C5E0D3003A5CD8 /* ComplaintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsViewController.swift; sourceTree = "<group>"; };
+		18D36A6522C5E2A4003A5CD8 /* ComplaintsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintsTableViewCell.swift; sourceTree = "<group>"; };
+		18D36A6722C5E88E003A5CD8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		18D36A6922C5EC0F003A5CD8 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		18D53E6C229452440068414E /* ArrivingCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivingCarViewController.swift; sourceTree = "<group>"; };
+		18D53E6E2294536E0068414E /* ArrivingCarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivingCarTableViewCell.swift; sourceTree = "<group>"; };
+		18DD23342284C63500D566BC /* DashBoardAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashBoardAdminViewController.swift; path = WorkShopAutomation/Controller/DashBoardAdminViewController.swift; sourceTree = SOURCE_ROOT; };
+		18DD23362284C9CE00D566BC /* AddMechanicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMechanicViewController.swift; sourceTree = "<group>"; };
+		18F61D1B228580E6009AF7EF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18F9BE1D224CB87E00B84E6D /* DashBoardCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCustomerViewController.swift; sourceTree = "<group>"; };
+		4F6AF639394510BF828BF263 /* Pods-WorkShopAutomationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomationUITests/Pods-WorkShopAutomationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5650EA948006E02B94C98308 /* Pods_WorkShopAutomation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkShopAutomation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6123E8F35BDCA80055D1D612 /* Pods-WorkShopAutomationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomationUITests/Pods-WorkShopAutomationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC29C67C2A2682CF7F932506 /* Pods-WorkShopAutomation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomation.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomation/Pods-WorkShopAutomation.release.xcconfig"; sourceTree = "<group>"; };
+		B173D4C25327BC91E3E4CDE0 /* Pods-WorkShopAutomation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomation/Pods-WorkShopAutomation.debug.xcconfig"; sourceTree = "<group>"; };
+		CF98D0498A4CCD6791B8AE33 /* Pods_WorkShopAutomationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkShopAutomationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA500B21E1F02F936560CBCB /* Pods_WorkShopAutomationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkShopAutomationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3A2D85432BDDCBA48D59A4 /* Pods-WorkShopAutomationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomationTests/Pods-WorkShopAutomationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F497262D9DBF0B8D433851 /* Pods-WorkShopAutomationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkShopAutomationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkShopAutomationTests/Pods-WorkShopAutomationTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188E51DE22491B890050C6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18862FFC22B632B4001B91F1 /* CoreData.framework in Frameworks */,
+				DE34F007FA3362EE2A3F4515 /* Pods_WorkShopAutomation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51F222491B8B0050C6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CC040F078B66B79FC99CF /* Pods_WorkShopAutomationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51FD22491B8B0050C6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987A9F3CAA5ACFB1BE8BFF8 /* Pods_WorkShopAutomationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188E51D822491B890050C6B3 = {
+			isa = PBXGroup;
+			children = (
+				188E51E322491B890050C6B3 /* WorkShopAutomation */,
+				188E51F822491B8B0050C6B3 /* WorkShopAutomationTests */,
+				188E520322491B8B0050C6B3 /* WorkShopAutomationUITests */,
+				188E51E222491B890050C6B3 /* Products */,
+				E20F7E532DE7428DADD26C74 /* Pods */,
+				66BF397D164750A3BF62A581 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188E51E222491B890050C6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188E51E122491B890050C6B3 /* WorkShopAutomation.app */,
+				188E51F522491B8B0050C6B3 /* WorkShopAutomationTests.xctest */,
+				188E520022491B8B0050C6B3 /* WorkShopAutomationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188E51E322491B890050C6B3 /* WorkShopAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				188E521422491C220050C6B3 /* View */,
+				188E521322491C0F0050C6B3 /* Controller */,
+				188E51EB22491B8B0050C6B3 /* Assets.xcassets */,
+				188E51F022491B8B0050C6B3 /* Info.plist */,
+				18901A4F22B65AB900168234 /* Models.xcdatamodeld */,
+			);
+			path = WorkShopAutomation;
+			sourceTree = "<group>";
+		};
+		188E51F822491B8B0050C6B3 /* WorkShopAutomationTests */ = {
+			isa = PBXGroup;
+			children = (
+				188E51F922491B8B0050C6B3 /* WorkShopAutomationTests.swift */,
+				188E51FB22491B8B0050C6B3 /* Info.plist */,
+			);
+			path = WorkShopAutomationTests;
+			sourceTree = "<group>";
+		};
+		188E520322491B8B0050C6B3 /* WorkShopAutomationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188E520422491B8B0050C6B3 /* WorkShopAutomationUITests.swift */,
+				188E520622491B8B0050C6B3 /* Info.plist */,
+			);
+			path = WorkShopAutomationUITests;
+			sourceTree = "<group>";
+		};
+		188E521322491C0F0050C6B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188E51E422491B890050C6B3 /* AppDelegate.swift */,
+				188E51E622491B890050C6B3 /* ViewController.swift */,
+				18984EE922B940A100DC9C80 /* BillViewController.swift */,
+				18984EEB22B941A200DC9C80 /* BillTableViewCell.swift */,
+				18D36A6722C5E88E003A5CD8 /* DetailsViewController.swift */,
+				18D36A6322C5E0D3003A5CD8 /* ComplaintsViewController.swift */,
+				18D36A6522C5E2A4003A5CD8 /* ComplaintsTableViewCell.swift */,
+				184F008222A133010095B06D /* CustomerArrivedCheckInViewController.swift */,
+				18D53E6C229452440068414E /* ArrivingCarViewController.swift */,
+				18D53E6E2294536E0068414E /* ArrivingCarTableViewCell.swift */,
+				18A20B8A22967BBA006550C3 /* ReviewCarsViewController.swift */,
+				18A20B8C22967E13006550C3 /* ReviewCarsTableViewCell.swift */,
+				1861EE38229DB50800B105BD /* CarInShopViewController.swift */,
+				1805977B229F1062005CCA2F /* CarInShopTableViewCell.swift */,
+				18DD23342284C63500D566BC /* DashBoardAdminViewController.swift */,
+				18B853B6229143000043B347 /* CheckinViewController.swift */,
+				18B96F032285992E00B0F431 /* UserProfileViewController.swift */,
+				18B19829228946170048584D /* ServicesViewController.swift */,
+				18B1982B228951FA0048584D /* ServicesTableViewCell.swift */,
+				18B853B8229149870043B347 /* AppointmentScheduleViewController.swift */,
+				18F61D1B228580E6009AF7EF /* ProfileViewController.swift */,
+				18DD23362284C9CE00D566BC /* AddMechanicViewController.swift */,
+				18A7425F227AD036008E91BF /* AddAppointmentTableViewCell.swift */,
+				18A7425D227ACF90008E91BF /* AddAppointmentViewController.swift */,
+				188E521522491F400050C6B3 /* SignUpViewController.swift */,
+				18B396A8224BE7500006C0A8 /* SignInViewController.swift */,
+				1884E1BC224E676D0092C8D0 /* DashBoardMechanicViewController.swift */,
+				18F9BE1D224CB87E00B84E6D /* DashBoardCustomerViewController.swift */,
+				18CEE812224EAB6A00B07ACD /* AddCarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		188E521422491C220050C6B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188E51ED22491B8B0050C6B3 /* LaunchScreen.storyboard */,
+				188E51E822491B890050C6B3 /* Main.storyboard */,
+				187D6B9222CA840A005E8146 /* CustomAppointmentViewController.swift */,
+				18D36A6922C5EC0F003A5CD8 /* DetailsTableViewCell.swift */,
+				18A7EBD6227C4E7E00FC5987 /* ServiceViewController.swift */,
+				18A7EBD4227C4E5600FC5987 /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66BF397D164750A3BF62A581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18862FFB22B632B4001B91F1 /* CoreData.framework */,
+				5650EA948006E02B94C98308 /* Pods_WorkShopAutomation.framework */,
+				DA500B21E1F02F936560CBCB /* Pods_WorkShopAutomationTests.framework */,
+				CF98D0498A4CCD6791B8AE33 /* Pods_WorkShopAutomationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20F7E532DE7428DADD26C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B173D4C25327BC91E3E4CDE0 /* Pods-WorkShopAutomation.debug.xcconfig */,
+				AC29C67C2A2682CF7F932506 /* Pods-WorkShopAutomation.release.xcconfig */,
+				EE3A2D85432BDDCBA48D59A4 /* Pods-WorkShopAutomationTests.debug.xcconfig */,
+				F4F497262D9DBF0B8D433851 /* Pods-WorkShopAutomationTests.release.xcconfig */,
+				6123E8F35BDCA80055D1D612 /* Pods-WorkShopAutomationUITests.debug.xcconfig */,
+				4F6AF639394510BF828BF263 /* Pods-WorkShopAutomationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188E51E022491B890050C6B3 /* WorkShopAutomation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188E520922491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomation" */;
+			buildPhases = (
+				DCD81F07DC49277EFE3A2F8C /* [CP] Check Pods Manifest.lock */,
+				188E51DD22491B890050C6B3 /* Sources */,
+				188E51DE22491B890050C6B3 /* Frameworks */,
+				188E51DF22491B890050C6B3 /* Resources */,
+				CE80067199CA5116864BC36B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkShopAutomation;
+			productName = WorkShopAutomation;
+			productReference = 188E51E122491B890050C6B3 /* WorkShopAutomation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188E51F422491B8B0050C6B3 /* WorkShopAutomationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188E520C22491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomationTests" */;
+			buildPhases = (
+				4EFDCAA4BCDC91BAA9046759 /* [CP] Check Pods Manifest.lock */,
+				188E51F122491B8B0050C6B3 /* Sources */,
+				188E51F222491B8B0050C6B3 /* Frameworks */,
+				188E51F322491B8B0050C6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188E51F722491B8B0050C6B3 /* PBXTargetDependency */,
+			);
+			name = WorkShopAutomationTests;
+			productName = WorkShopAutomationTests;
+			productReference = 188E51F522491B8B0050C6B3 /* WorkShopAutomationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188E51FF22491B8B0050C6B3 /* WorkShopAutomationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188E520F22491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomationUITests" */;
+			buildPhases = (
+				21C6DD303801FC9EE00D45B6 /* [CP] Check Pods Manifest.lock */,
+				188E51FC22491B8B0050C6B3 /* Sources */,
+				188E51FD22491B8B0050C6B3 /* Frameworks */,
+				188E51FE22491B8B0050C6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188E520222491B8B0050C6B3 /* PBXTargetDependency */,
+			);
+			name = WorkShopAutomationUITests;
+			productName = WorkShopAutomationUITests;
+			productReference = 188E520022491B8B0050C6B3 /* WorkShopAutomationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188E51D922491B890050C6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					188E51E022491B890050C6B3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					188E51F422491B8B0050C6B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 188E51E022491B890050C6B3;
+					};
+					188E51FF22491B8B0050C6B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 188E51E022491B890050C6B3;
+					};
+				};
+			};
+			buildConfigurationList = 188E51DC22491B890050C6B3 /* Build configuration list for PBXProject "WorkShopAutomation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188E51D822491B890050C6B3;
+			productRefGroup = 188E51E222491B890050C6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188E51E022491B890050C6B3 /* WorkShopAutomation */,
+				188E51F422491B8B0050C6B3 /* WorkShopAutomationTests */,
+				188E51FF22491B8B0050C6B3 /* WorkShopAutomationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188E51DF22491B890050C6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E51EF22491B8B0050C6B3 /* LaunchScreen.storyboard in Resources */,
+				188E51EC22491B8B0050C6B3 /* Assets.xcassets in Resources */,
+				188E51EA22491B890050C6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51F322491B8B0050C6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51FE22491B8B0050C6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C6DD303801FC9EE00D45B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkShopAutomationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EFDCAA4BCDC91BAA9046759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkShopAutomationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE80067199CA5116864BC36B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WorkShopAutomation/Pods-WorkShopAutomation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkShopAutomation/Pods-WorkShopAutomation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD81F07DC49277EFE3A2F8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkShopAutomation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188E51DD22491B890050C6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1982C228951FA0048584D /* ServicesTableViewCell.swift in Sources */,
+				18D36A6622C5E2A4003A5CD8 /* ComplaintsTableViewCell.swift in Sources */,
+				18984EEA22B940A100DC9C80 /* BillViewController.swift in Sources */,
+				18D53E6D229452440068414E /* ArrivingCarViewController.swift in Sources */,
+				18DD23372284C9CE00D566BC /* AddMechanicViewController.swift in Sources */,
+				18B96F042285992E00B0F431 /* UserProfileViewController.swift in Sources */,
+				18A7425E227ACF90008E91BF /* AddAppointmentViewController.swift in Sources */,
+				18B853B7229143000043B347 /* CheckinViewController.swift in Sources */,
+				184F008322A133010095B06D /* CustomerArrivedCheckInViewController.swift in Sources */,
+				1861EE39229DB50800B105BD /* CarInShopViewController.swift in Sources */,
+				18A74260227AD036008E91BF /* AddAppointmentTableViewCell.swift in Sources */,
+				18A7EBD7227C4E7E00FC5987 /* ServiceViewController.swift in Sources */,
+				18F61D1C228580E6009AF7EF /* ProfileViewController.swift in Sources */,
+				18CEE813224EAB6A00B07ACD /* AddCarViewController.swift in Sources */,
+				1884E1BD224E676D0092C8D0 /* DashBoardMechanicViewController.swift in Sources */,
+				18A20B8D22967E13006550C3 /* ReviewCarsTableViewCell.swift in Sources */,
+				18B396A9224BE7500006C0A8 /* SignInViewController.swift in Sources */,
+				187D6B9322CA840A005E8146 /* CustomAppointmentViewController.swift in Sources */,
+				18D36A6422C5E0D3003A5CD8 /* ComplaintsViewController.swift in Sources */,
+				18D53E6F2294536E0068414E /* ArrivingCarTableViewCell.swift in Sources */,
+				188E521622491F400050C6B3 /* SignUpViewController.swift in Sources */,
+				18B1982A228946170048584D /* ServicesViewController.swift in Sources */,
+				18A7EBD5227C4E5600FC5987 /* TableViewCell.swift in Sources */,
+				188E51E722491B890050C6B3 /* ViewController.swift in Sources */,
+				18DD23352284C63500D566BC /* DashBoardAdminViewController.swift in Sources */,
+				18B853B9229149870043B347 /* AppointmentScheduleViewController.swift in Sources */,
+				18A20B8B22967BBA006550C3 /* ReviewCarsViewController.swift in Sources */,
+				1805977C229F1062005CCA2F /* CarInShopTableViewCell.swift in Sources */,
+				18D36A6A22C5EC0F003A5CD8 /* DetailsTableViewCell.swift in Sources */,
+				18D36A6822C5E88E003A5CD8 /* DetailsViewController.swift in Sources */,
+				18901A5122B65AB900168234 /* Models.xcdatamodeld in Sources */,
+				18F9BE1E224CB87E00B84E6D /* DashBoardCustomerViewController.swift in Sources */,
+				18984EEC22B941A200DC9C80 /* BillTableViewCell.swift in Sources */,
+				188E51E522491B890050C6B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51F122491B8B0050C6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E51FA22491B8B0050C6B3 /* WorkShopAutomationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188E51FC22491B8B0050C6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E520522491B8B0050C6B3 /* WorkShopAutomationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188E51F722491B8B0050C6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188E51E022491B890050C6B3 /* WorkShopAutomation */;
+			targetProxy = 188E51F622491B8B0050C6B3 /* PBXContainerItemProxy */;
+		};
+		188E520222491B8B0050C6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188E51E022491B890050C6B3 /* WorkShopAutomation */;
+			targetProxy = 188E520122491B8B0050C6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188E51E822491B890050C6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188E51E922491B890050C6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188E51ED22491B8B0050C6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188E51EE22491B8B0050C6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188E520722491B8B0050C6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188E520822491B8B0050C6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188E520A22491B8B0050C6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B173D4C25327BC91E3E4CDE0 /* Pods-WorkShopAutomation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188E520B22491B8B0050C6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC29C67C2A2682CF7F932506 /* Pods-WorkShopAutomation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		188E520D22491B8B0050C6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3A2D85432BDDCBA48D59A4 /* Pods-WorkShopAutomationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkShopAutomation.app/WorkShopAutomation";
+			};
+			name = Debug;
+		};
+		188E520E22491B8B0050C6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F497262D9DBF0B8D433851 /* Pods-WorkShopAutomationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkShopAutomation.app/WorkShopAutomation";
+			};
+			name = Release;
+		};
+		188E521022491B8B0050C6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6123E8F35BDCA80055D1D612 /* Pods-WorkShopAutomationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkShopAutomation;
+			};
+			name = Debug;
+		};
+		188E521122491B8B0050C6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6AF639394510BF828BF263 /* Pods-WorkShopAutomationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkShopAutomationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = apple.WorkShopAutomationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkShopAutomation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188E51DC22491B890050C6B3 /* Build configuration list for PBXProject "WorkShopAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E520722491B8B0050C6B3 /* Debug */,
+				188E520822491B8B0050C6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188E520922491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E520A22491B8B0050C6B3 /* Debug */,
+				188E520B22491B8B0050C6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188E520C22491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E520D22491B8B0050C6B3 /* Debug */,
+				188E520E22491B8B0050C6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188E520F22491B8B0050C6B3 /* Build configuration list for PBXNativeTarget "WorkShopAutomationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188E521022491B8B0050C6B3 /* Debug */,
+				188E521122491B8B0050C6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18901A4F22B65AB900168234 /* Models.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18901A5022B65AB900168234 /* Models.xcdatamodel */,
+			);
+			currentVersion = 18901A5022B65AB900168234 /* Models.xcdatamodel */;
+			path = Models.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 188E51D922491B890050C6B3 /* Project object */;
+}
